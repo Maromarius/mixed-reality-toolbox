@@ -1,4 +1,4 @@
-package com.kanawish.ardemo.di
+package com.kanawish.ar.robotremote.di
 
 import android.app.Application
 import com.kanawish.di.ActivityInjectionLifecycle

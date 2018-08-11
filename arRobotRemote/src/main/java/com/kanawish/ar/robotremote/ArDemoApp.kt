@@ -1,9 +1,9 @@
-package com.kanawish.ardemo
+package com.kanawish.ar.robotremote
 
 import android.app.Activity
 import android.app.Application
-import com.kanawish.ardemo.di.ActivityModule
-import com.kanawish.ardemo.di.AppModule
+import com.kanawish.ar.robotremote.di.ActivityModule
+import com.kanawish.ar.robotremote.di.AppModule
 import com.kanawish.di.ActivityInjectionLifecycle
 import com.kanawish.di.ActivitySingleton
 import timber.log.Timber
@@ -17,7 +17,7 @@ class ArDemoApp : Application() {
     override fun onCreate() {
         super.onCreate()
 
-        if (com.kanawish.ardemo.BuildConfig.DEBUG) {
+        if (com.kanawish.ar.robotremote.BuildConfig.DEBUG) {
             Timber.plant(Timber.DebugTree())
         }
 

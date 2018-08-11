@@ -1,6 +1,5 @@
-package com.kanawish.ardemo.di
+package com.kanawish.ar.robotremote.di
 
-import android.app.Activity
 import toothpick.config.Module
 
 object ActivityModule : Module() {
